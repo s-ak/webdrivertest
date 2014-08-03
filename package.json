@@ -1,0 +1,78 @@
+{
+  "name": "webdriverjs",
+  "description": "A nodejs bindings implementation for selenium 2.0/webdriver",
+  "version": "1.7.1",
+  "homepage": "https://github.com/camme/webdriverjs",
+  "author": "camilo tapia <camilo.tapia@gmail.com>",
+  "contributors": [
+    "Dan Jenkins <dan.jenkins@holidayextras.com>",
+    "Christian Bromann <mail@christian-bromann.com>",
+    "Vincent Voyer <vincent@zeroload.net>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/camme/webdriverjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/camme/webdriverjs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/camme/webdriverjs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "node ./test/runner.js",
+    "coverage": "./node_modules/.bin/istanbul cover ./test/runner.js",
+    "prepublish": "npm prune"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "jshint": "~2.4.1",
+    "saucelabs": "~0.1.1",
+    "glob": "~3.2.7",
+    "nock": "~0.27.1",
+    "coveralls": "~2.8.0",
+    "istanbul": "^0.2.6"
+  },
+  "tags": [
+    "web",
+    "test",
+    "selenium",
+    "browser",
+    "javascript"
+  ],
+  "keywords": [
+    "webdriverjs",
+    "webdriver",
+    "selenium",
+    "saucelabs",
+    "sauce",
+    "labs",
+    "mocha",
+    "nodeUnit",
+    "buster",
+    "phantomjs",
+    "chai",
+    "vows",
+    "jasmine",
+    "assert",
+    "cucumber",
+    "testingbot"
+  ],
+  "dependencies": {
+    "chainit": "^2.0.2-backcompat",
+    "pragma-singleton": "~1.0.3",
+    "archiver": "~0.6.1",
+    "request": "~2.34.0",
+    "deepmerge": "~0.2.7",
+    "crx": "~0.4.1",
+    "socket.io": "~0.9.16"
+  }
+}
